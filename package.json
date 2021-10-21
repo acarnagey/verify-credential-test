@@ -1,0 +1,23 @@
+{
+  "name": "verify-credential-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/acarnagey/verify-credential-test.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/acarnagey/verify-credential-test/issues"
+  },
+  "homepage": "https://github.com/acarnagey/verify-credential-test#readme",
+  "dependencies": {
+    "@digitalbazaar/ed25519-signature-2018": "^2.0.1",
+    "@digitalbazaar/ed25519-verification-key-2018": "^3.1.1"
+  }
+}
