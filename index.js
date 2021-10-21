@@ -53,8 +53,8 @@ let proof;
   });
 
   if (result.verified) {
-    // This should not happen since, credential1 has an empty credential subject and removed other root property like related link.
-    // but it verifies the same.
+    // This should not happen since credential1 has an empty credential subject and removed other root property like related link.
+    // But instead the other credential verifies the same.
     console.log('Successfully verified');
     fs.writeFileSync(
       path.resolve(__dirname, "./__fixtures__/output/digitalbazaar-credential0-proof.json"),
